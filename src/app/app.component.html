@@ -1,0 +1,13 @@
+<h1>
+  {{title}}
+</h1>
+<ngui-popup #popup></ngui-popup>
+<p>------------------------------------</p>
+<button class="btn btn-outline-primary btn-sm" (click)="clickAlert()">zwykły alert</button>
+<p>------------------------------------</p>
+<button class="btn btn-primary" (click)="clickPopupAlert()">Popup alert</button>
+<p>Komunikat Alert : {{messageAlert}}</p>
+<p>------------------------------------</p>
+<button class="btn btn-primary" (click)="clickPopupConfirm()">Popup confirm</button>
+<p>Komunikat Confirm : {{messageConfirm}}</p>
+<p>------------------------------------</p>
